@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-10-24T20:28:25 EDT" name="Default suite" finished-at="2022-10-24T20:28:46 EDT" duration-ms="21086">
+    <groups>
+    </groups>
+    <test started-at="2022-10-24T20:28:25 EDT" name="Default test" finished-at="2022-10-24T20:28:46 EDT" duration-ms="21086">
+      <class name="com.pages.test.SignupPageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.pages.test.SignupPageTest@6574a52c]" started-at="2022-10-24T20:28:25 EDT" name="setup" finished-at="2022-10-24T20:28:35 EDT" duration-ms="10545" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifySignupFormTitle()[pri:1, instance:com.pages.test.SignupPageTest@6574a52c]" started-at="2022-10-24T20:28:36 EDT" name="verifySignupFormTitle" finished-at="2022-10-24T20:28:36 EDT" duration-ms="845" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySignupFormTitle -->
+        <test-method signature="SignupFormWithValidData()[pri:3, instance:com.pages.test.SignupPageTest@6574a52c]" started-at="2022-10-24T20:28:36 EDT" name="SignupFormWithValidData" finished-at="2022-10-24T20:28:39 EDT" duration-ms="2186" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SignupFormWithValidData -->
+        <test-method signature="SignupFormWithExixtingUsername()[pri:4, instance:com.pages.test.SignupPageTest@6574a52c]" started-at="2022-10-24T20:28:39 EDT" name="SignupFormWithExixtingUsername" finished-at="2022-10-24T20:28:41 EDT" duration-ms="2113" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SignupFormWithExixtingUsername -->
+        <test-method signature="SignupFormWithBlankFirstName()[pri:5, instance:com.pages.test.SignupPageTest@6574a52c]" started-at="2022-10-24T20:28:41 EDT" name="SignupFormWithBlankFirstName" finished-at="2022-10-24T20:28:42 EDT" duration-ms="1649" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SignupFormWithBlankFirstName -->
+        <test-method signature="SignupFormWithBlankSurname()[pri:6, instance:com.pages.test.SignupPageTest@6574a52c]" started-at="2022-10-24T20:28:42 EDT" name="SignupFormWithBlankSurname" finished-at="2022-10-24T20:28:44 EDT" duration-ms="1595" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SignupFormWithBlankSurname -->
+        <test-method signature="SignupFormWithBlankFirstNameAndSurname()[pri:7, instance:com.pages.test.SignupPageTest@6574a52c]" started-at="2022-10-24T20:28:44 EDT" name="SignupFormWithBlankFirstNameAndSurname" finished-at="2022-10-24T20:28:46 EDT" duration-ms="1521" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SignupFormWithBlankFirstNameAndSurname -->
+        <test-method is-config="true" signature="finalize()[pri:0, instance:com.pages.test.SignupPageTest@6574a52c]" started-at="2022-10-24T20:28:46 EDT" name="finalize" finished-at="2022-10-24T20:28:46 EDT" duration-ms="458" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- finalize -->
+      </class> <!-- com.pages.test.SignupPageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
